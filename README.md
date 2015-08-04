@@ -3,15 +3,11 @@
 
 ## Linux
 
-### Git
+### [Git](linux/git.md)
 
 ### [Utils](linux/utils.md)
 
-### Ubuntu上搭建开发环境
-
-## Git
-* [Git Real 2](https://github.com/butterandfly/project_9/wiki/Git-Real-2)
-* [Git Real](https://github.com/butterandfly/project_9/wiki/Git-Real)
+### [Ubuntu上搭建开发环境](linux/ubuntu_startup.md)
 
 ## Javascript
 [Doc: javascript](https://github.com/butterandfly/project_9/wiki/Doc:-javascript)

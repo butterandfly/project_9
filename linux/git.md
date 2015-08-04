@@ -1,5 +1,5 @@
 
 ### Git Real
 
-* [Git Real 2](https://github.com/butterandfly/project_9/wiki/Git-Real-2)
-* [Git Real](https://github.com/butterandfly/project_9/wiki/Git-Real)
+* [Git Real](git_real.md)
+* [Git Real 2](git_real_2.md)
