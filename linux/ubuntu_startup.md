@@ -13,3 +13,25 @@ Emacs：http://askubuntu.com/questions/297170/how-to-install-emacs-24-3-on-ubunt
 
 #### 输入法
 安装google拼音：http://blog.csdn.net/shawnkong/article/details/13509175
+
+## 个人设置、程序
+
+#### bash_files
+Clone个人github上的bash_files。在`bashrc`中导入文件：
+
+```
+source bash_files/entry.bash
+```
+
+
+## 开发环境
+
+### Javascript
+
+#### Nvm管理node、iojs和npm
+https://github.com/creationix/nvm
+
+### Golang
+
+#### Gvm管理go
+https://github.com/moovweb/gvm
