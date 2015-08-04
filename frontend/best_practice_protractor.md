@@ -31,27 +31,27 @@ webdriver-manager start
 
 ### 取消angular限定
 ```
-  beforeEach(function() {
-      return browser.ignoreSynchronization = true;
-        });
-	```
+beforeEach(function() {
+  return browser.ignoreSynchronization = true;
+});
+```
 
 ### 测试alert
 ```
-      var al = browser.switchTo().alert();
-            al.then(function() {
-	            expect(al.getText()).toEqual('请填写电话');
-		            al.accept(); //确认alert，否则下面的页面测试会报错
-			          });
-				  ```
+var al = browser.switchTo().alert();
+al.then(function() {
+    expect(al.getText()).toEqual('请填写电话');
+    al.accept(); //确认alert，否则下面的页面测试会报错
+});
+```
 
 ### 选择子元素及统计个数
 ```
-    it('should have 9 options', function() {
-          var carOptions = carSelect.all(by.tagName('option'));
-	        expect(carOptions.count()).toBe(9);
-		    });
-		    ```
+it('should have 9 options', function() {
+    var carOptions = carSelect.all(by.tagName('option'));
+    expect(carOptions.count()).toBe(9);
+});
+```
 
 # 测试进阶
 

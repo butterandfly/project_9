@@ -14,12 +14,12 @@ var renderer = PIXI.autoDetectRenderer(400, 300);
 
 开始：
 ```
-    requestAnimFrame( animate );
-        function animate() {
-	        requestAnimFrame( animate );
-		        renderer.render(stage);
-			    }
-			    ```
+requestAnimFrame( animate );
+function animate() {
+  requestAnimFrame( animate );
+  renderer.render(stage);
+}
+```
 
 ## Renderer
 属性：
@@ -70,14 +70,14 @@ stage.addChild(bunny);
 
 ## 几何图案
 ```
-    // 画一个方形
-        var g = new PIXI.Graphics();
-	    g.lineStyle(5);
-	        g.beginFill(0xffffff, 1.0);
-		    g.drawRect(0, 0, 100, 100);
-		        // 默认会有padding，通过设置将padding消去
-			    g.boundsPadding = 0;
-			    ```
+// 画一个方形
+var g = new PIXI.Graphics();
+g.lineStyle(5);
+g.beginFill(0xffffff, 1.0);
+g.drawRect(0, 0, 100, 100);
+// 默认会有padding，通过设置将padding消去
+g.boundsPadding = 0;
+```
 
 同时我们可以通过graphic来生成texture创建sprite或tilingSprite
 ```
@@ -106,13 +106,13 @@ stage.mousedown = stage.touchstart = function(e) {
       ```
 
 ### 鼠标/触摸移动
-```
+```javascript
 stage.mousemove = stage.touchmove = function(e) {
-  // 该坐标是相对父object的位置
+    // 该坐标是相对父object的位置
     e.global.x;
-      e.global.y;
-      }
-      ```
+    e.global.y;
+}
+```
 
 ## 关于anchor与pivot
 `anchor`属性计算百分比，`pivot`则是实际像数。DisplayObjectContainer（或者是已经addChild的sprite）中没有anchor属性，可以用pivot代替。

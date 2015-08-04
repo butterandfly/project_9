@@ -10,7 +10,7 @@ var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload:
 function preload() {
     game.load.image('sky', 'assets/skies/sunset.png');
     }
-    ```
+```
 
 初始化的内容放在create：
 ```
@@ -18,7 +18,7 @@ function create() {
     game.add.image(0, 0, 'sky');
         // and so on...
 	}
-	```
+```
 
 ## 加载资源
 ```
@@ -151,4 +151,4 @@ cursors = game.input.keyboard.createCursorKeys();
     if (cursor.left.isDown) {
 
     }
-    ```
+```

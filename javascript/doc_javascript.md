@@ -11,9 +11,9 @@
 ```
 function getEpisodesByString(str) {
   var re = /第.*集/i;
-    var result = str.match(re);
-      return result;
-      }
+  var result = str.match(re);
+  return result;
+}
 
 console.log(getEpisodesByString('balbal第11集efjiejfi'));
 // 输出[ '第11集', index: 6, input: 'balbal第01集efjiejfi' ]
