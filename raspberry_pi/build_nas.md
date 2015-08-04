@@ -1,5 +1,9 @@
 # 树莓派搭建NAS
 
+>参考：
+* [树莓派作 NAS (RAID1, SMB/FTP, ARIA2, 迅雷离线, 异地备份)](http://www.dreamxu.com/raspberrypi-nas/)
+* [将树莓派配置成时间胶囊](http://codelife.me/blog/2013/12/21/raspberry-pi-as-time-capsule/)
+
 ## 什么是NAS
 NAS的核心功能包括：
 * 文件储存与共享

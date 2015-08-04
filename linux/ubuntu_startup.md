@@ -14,6 +14,12 @@ Emacs：http://askubuntu.com/questions/297170/how-to-install-emacs-24-3-on-ubunt
 #### 输入法
 安装google拼音：http://blog.csdn.net/shawnkong/article/details/13509175
 
+#### 字体
+`sudo apt-get install ttf-wqy-*`
+
+#### Guake终端
+可在Ubuntu软件中心找到。
+
 ## 个人设置、程序
 
 #### bash_files
