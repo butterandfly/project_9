@@ -50,17 +50,16 @@ git stash apply
 
 ### 改写history的why和why not
 
-**Why: **
+#### Why:
 
 * 侵权问题
 * 修改二进制文件
 * 隐藏还不能公开的内容
 
-**Why Not: **
+#### Why Not: **
 
 * 所有人都需要更新你的改写
 * 没必要
-
 
 ### 改写history前注意备份，因为这可能会丢失内容
 
