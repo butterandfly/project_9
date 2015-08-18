@@ -29,7 +29,7 @@ http://addyosmani.github.io/a11y/
 # 测试（Unit Test）
 
 ## node测试
-mocha: http://mochajs.org/#installation 
+mocha: http://mochajs.org/#installation
 chai: http://chaijs.com/guide/styles/#should
 ### 辅助：
 gulp-mocha
@@ -68,12 +68,7 @@ moment: http://momentjs.com/
 # EditorConfig
 http://editorconfig.org/
 
-# node中有用的插件
-* 执行命令行代码shelljs: https://github.com/arturadib/shelljs
-* 读取文本文件的每一行line-reader: https://github.com/nickewing/line-reader
-* 地理位置计算：geolib
-* 发送请求：request
-* 彩色终端：https://github.com/sindresorhus/chalk
+
 
 # 速度测试
 https://sites.google.com/a/webpagetest.org/docs/
