@@ -1,4 +1,31 @@
-# 前端技术参考
+## 开发
+
+### 自动刷新
+* BrowserSync
+
+## 浏览器兼容、特性
+
+### 检测
+* Modernizr，特性检测
+
+### 特性填充
+* html5shiv，添加IE对html5的支持
+* [Respond](https://github.com/scottjehl/Respond)
+* https://github.com/necolas/normalize.css/
+
+## 程序设计辅组
+
+### 事件
+* https://github.com/asyncly/EventEmitter2
+
+### 不可变数据
+* https://github.com/facebook/immutable-js/
+
+## 日期
+* moment.js
+
+## 路由
+https://github.com/flatiron/director
 
 # 动画
 ### Web Animation API
@@ -63,12 +90,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expression
 
 # 日期相关
 bootstrap 3 datepicker: http://eonasdan.github.io/bootstrap-datetimepicker/
-moment: http://momentjs.com/
 
 # EditorConfig
 http://editorconfig.org/
-
-
 
 # 速度测试
 https://sites.google.com/a/webpagetest.org/docs/

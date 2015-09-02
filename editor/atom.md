@@ -13,6 +13,14 @@
 * 修改名字：`m`
 * 删除：`delete`
 
-## 插件推荐
-
+## 插件
 * https://atom.io/users/jysperm/stars
+
+### React
+* react
+
+### css相关
+
+### 语法检查
+* linter
+* linter-eslint
